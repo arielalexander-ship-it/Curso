@@ -1,0 +1,25 @@
+Hoja de referencia rápida de Git
+Empezando
+Iniciar un nuevo repositorio:
+git init
+Clonar un repositorio existente:
+git clone <url>
+Prepárate para comprometerte
+Agregar archivos sin seguimiento o cambios sin preparar:
+git add <file>
+Agregar todos los archivos sin seguimiento y los cambios sin preparar:
+git add .
+Seleccione qué partes de un archivo desea procesar:
+git add -p
+Mover archivo:
+git mv <old> <new>
+Eliminar archivo:
+git rm <file>
+Indica a Git que olvide un archivo sin eliminarlo:
+git rm --cached <file>
+Desactivar un archivo:
+git reset <file>
+Desmontar todo:
+git reset
+Comprueba lo que has añadido:
+git status
